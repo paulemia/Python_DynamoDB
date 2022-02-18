@@ -29,7 +29,7 @@ print(response)
 response = table.update_item(
     Key={'Name': 'Artur Bakh4', 'Email': 'artur_olga@yahoo.com'},
     ExpressionAttributeNames={
-        "#age": "Age" ,
+        "#age":"Age" ,
         "#department":"Department",
         "#boss": "Boss"
        

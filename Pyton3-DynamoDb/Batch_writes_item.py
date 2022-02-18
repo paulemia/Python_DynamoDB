@@ -1,6 +1,6 @@
 import boto3
 from os import environ
-
+####  setting Environment 
 environ['AWS_DEFAULT_REGION'] = 'us-west-2'
 environ['AWS_ACCESS_KEY_ID'] = 'dummy'
 environ['AWS_SECRET_ACCESS_KEY'] = 'dummy'
